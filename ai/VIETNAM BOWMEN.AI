@@ -1,0 +1,112 @@
+//VIETNAM BOWMEN
+//Tool Age attack
+//Version 1.0: August 15th, 1997
+//15 Horse Archers, 8 Catapults
+//retrains: 10 bowmen, 4 chariot archers
+//19-6 villagers
+//Revision 1: 6/12/98: Age X-Pack; moved up ballistics; added Alchemy
+//Revision 2: 6/25/98: dropped farms; added heavy cat upgrade
+//
+//UPatch HD 1.1: fixed missing/redundant objects, fixed positions & wrong values;
+//Irrigation removed
+
+
+B109    Town_Center            1      -1       
+U83     Villager               8      109      
+B12     Barracks               1      -1       
+U83     Villager               5      109      
+
+C101    R__Tool_Age            1      109      
+B87     Archery_Range          1      -1       
+U83     Villager               3      109      
+T4      Bowman                 2      87        2
+B87     Archery_Range          1      -1       
+T4      Bowman                 2      87        2
+T83     Villager               2      109       2
+T4      Bowman                 2      87        2
+B84     Market                 1      -1       
+T4      Bowman                 2      87        2
+R107    R__Woodworking         1      84       
+B50     Farm                   2      -1       
+R16     R__Watch_Tower         1      68       
+T4      Bowman                 2      87        2
+A87     Archery_Range          2      -1        2
+T83     Villager               2      109       2
+R81     R__Domestication       1      84       
+B50     Farm                   2      -1       
+B79     Watch_Tower            1      -1       
+
+C102    R__Bronze_Age          1      109      
+R107    R__Woodworking         1      84       
+B49     Siege_Workshop         1      -1       
+R28     R__Wheel               1      84       
+R41     R__L__Armor_for_Arch_  1      103      
+B82     Government_Center      1      -1       
+R109    R__Stone_Mining        1      84       
+R44     R__S__Armor_for_Arch_  1      103      
+T41     Chariot_Archer         10     87        3
+R32     R__Artisanship         1      84       
+T83     Villager               2      109       2
+T35     Stone_Thrower____      2      49        2
+B50     Farm                   2      -1       
+T41     Chariot_Archer         2      87        2
+T35     Stone_Thrower____      2      49        2
+B49     Siege_Workshop         1      -1       
+B49     Siege_Workshop         1      -1       
+T83     Villager               2      109       2
+B79     Watch_Tower            2      -1       
+R12     R__Sentry_Tower        1      68       
+T35     Stone_Thrower____      1      49        1
+B50     Farm                   1      -1       
+B79     Watch_Tower            2      -1       
+B87     Archery_Range          1      -1       
+
+C103    R__Iron_Age            1      109      
+B50     Farm                   3      -1       
+R107    R__Woodworking         1      84       
+R112    R__Architecture        1      82       
+R108    R__Gold_Mining         1      84       
+R106    R__Balistics           1      82       
+U39     Horse_Archer____       5      87       
+U35     Stone_Thrower____      2      49       
+R110    R__Craftsmanship       1      84       
+U35     Stone_Thrower____      2      49       
+B49     Siege_Workshop         1      -1       
+R54     R__Catapult            1      49       
+R111    R__Siegecraft          1      84       
+R49     R__Ch__Mail_for_Arch_  1      103      
+B87     Archery_Range          1      -1       
+U25     Elephant_Archer        2      87
+B79     Watch_Tower            2      -1       
+R35     R__Engineering         1      82       
+R112    R__Architecture        1      82       
+U39     Horse_Archer____       6      87       
+R37     R__Alchemy             1      82       
+U25     Elephant_Archer        3      87       
+U35     Stone_Thrower____      2      49       
+U25     Elephant_Archer        3      87       
+U35     Stone_Thrower____      2      49       
+U39     Horse_Archer____       6      87
+B79     Watch_Tower            2      -1       
+U35     Stone_Thrower____      2      49       
+U39     Horse_Archer____       8      87       
+R15     R__Guard_Tower         1      68
+B79     Watch_Tower            2      -1       
+R34     R__Nobility            1      82       
+C36     R__Heavy_Catapult      1      49       
+U35     Stone_Thrower____      2      49       
+C38     R__Heavy_Horse_Archer  1      87
+B79     Watch_Tower            2      -1       
+B276    Wonder                 1      -1       
+
+//End
+
+
+
+
+
+
+
+
+
+
